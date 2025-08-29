@@ -6,7 +6,7 @@ Built as part of a **UI Take-Home Challenge**.
 ---
 
 ## 🚀 Live Demo  
-🔗 [View on GitHub Pages](https://1456vk.github.io/earthquake-visualizer)
+🔗 [View on GitHub Pages](http://localhost:3001/earthquake-visualizer)
 
 ---
 
