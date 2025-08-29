@@ -35,3 +35,19 @@ Built as part of a **UI Take-Home Challenge**.
    ```bash
    git clone https://github.com/<your-username>/earthquake-visualizer.git
    cd earthquake-visualizer
+2. Install dependencies
+
+npm install
+3. Run locally
+
+npm start
+4. Build for production
+
+npm run build
+🌐 Deployment (GitHub Pages)
+
+This project is deployed using gh-pages.
+
+To deploy:
+
+npm run deploy
