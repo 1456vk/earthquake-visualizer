@@ -1,20 +1,15 @@
 import React from "react";
+import "./Legend.css";
 
-const Legend = () => {
-  const grades = [0, 1, 2, 3, 4, 5];
-  const colors = ["#1a9850","#91cf60","#d9ef8b","#fee08b","#fc8d59","#d73027"];
-
+function Legend() {
   return (
-    <div style={{ background: "#fff", padding: "10px", width: "150px", margin: "20px auto", borderRadius: "5px" }}>
-      <h4>Magnitude</h4>
-      {grades.map((grade, idx) => (
-        <div key={idx}>
-          <i style={{ background: colors[idx], width: "20px", height: "20px", display: "inline-block", marginRight: "5px" }}></i>
-          {grade}+
-        </div>
-      ))}
+    <div className="legend">
+      <h4>Magnitude Legend</h4>
+      <div><span style={{ background: "yellow" }}></span> Magnitude ≤ 3</div>
+      <div><span style={{ background: "orange" }}></span> Magnitude 3 - 5</div>
+      <div><span style={{ background: "red" }}></span> Magnitude > 5</div>
     </div>
   );
-};
+}
 
 export default Legend;
