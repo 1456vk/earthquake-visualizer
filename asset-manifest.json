@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/earthquake-visualizer/static/css/main.3410ae4b.css",
-    "main.js": "/earthquake-visualizer/static/js/main.cbb5c3d1.js",
+    "main.css": "/earthquake-visualizer/static/css/main.9072d763.css",
+    "main.js": "/earthquake-visualizer/static/js/main.389bedba.js",
     "static/js/453.5a2ac0e2.chunk.js": "/earthquake-visualizer/static/js/453.5a2ac0e2.chunk.js",
     "index.html": "/earthquake-visualizer/index.html",
-    "main.3410ae4b.css.map": "/earthquake-visualizer/static/css/main.3410ae4b.css.map",
-    "main.cbb5c3d1.js.map": "/earthquake-visualizer/static/js/main.cbb5c3d1.js.map",
+    "main.9072d763.css.map": "/earthquake-visualizer/static/css/main.9072d763.css.map",
+    "main.389bedba.js.map": "/earthquake-visualizer/static/js/main.389bedba.js.map",
     "453.5a2ac0e2.chunk.js.map": "/earthquake-visualizer/static/js/453.5a2ac0e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3410ae4b.css",
-    "static/js/main.cbb5c3d1.js"
+    "static/css/main.9072d763.css",
+    "static/js/main.389bedba.js"
   ]
 }
