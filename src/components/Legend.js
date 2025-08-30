@@ -1,15 +1,24 @@
-import React from "react";
-import "./Legend.css";
+import React from 'react';
 
-function Legend() {
+const rows = [
+  { color: '#d73027', label: '≥ 6.0' },
+  { color: '#fc8d59', label: '5.0 – 5.9' },
+  { color: '#fee08b', label: '4.0 – 4.9' },
+  { color: '#d9ef8b', label: '3.0 – 3.9' },
+  { color: '#91cf60', label: '2.0 – 2.9' },
+  { color: '#1a9850', label: '< 2.0' },
+];
+
+export default function Legend() {
   return (
     <div className="legend">
-      <h4>Magnitude Legend</h4>
-      <div><span style={{ background: "yellow" }}></span> Magnitude ≤ 3</div>
-      <div><span style={{ background: "orange" }}></span> Magnitude 3 - 5</div>
-      <div><span style={{ background: "red" }}></span> Magnitude > 5</div>
+      <div className="legend-title">Magnitude</div>
+      {rows.map((r) => (
+        <div className="legend-row" key={r.label}>
+          <span className="legend-swatch" style={{ background: r.color }} />
+          <span>{r.label}</span>
+        </div>
+      ))}
     </div>
   );
 }
-
-export default Legend;
